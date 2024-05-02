@@ -5,6 +5,7 @@
 @media screen and (min-width: 768px) and (max-width:992px){
     section#login{
         width: 80vw;
+        height: 280px;
     }
     div#imagem{
         float: left;
@@ -16,11 +17,18 @@
         float: right;
         width: 70%;
     }
+    div#formulario> p#txtap{
+        margin: 10px 0px 30px 0px;
+        text-align: justify;
+    }
+    form div.campo{
+    }
 }
 
 @media screen and (min-width:992px){
     section#login{
         width: 70%;
+        height: 350px;
     }
     div#imagem{
         float: right;
